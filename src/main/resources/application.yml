@@ -1,0 +1,15 @@
+server:
+  port: 4201
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/onlinequiz
+    username: root
+    password: 8984110761
+  jpa:
+    properties:
+        dialect: org.hibernate.dialect.MySQL55Dialect
+        format_sql: true
+    hibernate:
+        ddl-auto: create-drop
+    show-sql: true
+    
